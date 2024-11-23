@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* Global Variables */
+
+:root {
+    --gradient-bg: linear-gradient(#306f88, #6bb8e9);
+    --text-size-large: 22px;
+    --text-size-xlarge: 30px;
+    --text-color-light: #fff;
+}
+
+
+/* Navbar Styling */
+
+.navbar {
+    background-image: var(--gradient-bg);
+}
+
+
+/* Brand Styling */
+
+.navbar-brand {
+    font-size: var(--text-size-xlarge);
+    font-weight: bold;
+}
+
+
+/* Navigation Item Styling */
+
+.nav-item {
+    font-size: var(--text-size-large);
+    font-weight: bold;
+}
+
+
+/* Button Styling */
+
+.btn {
+    background-image: var(--gradient-bg);
+    border: none;
+    box-shadow: none;
+    font-size: var(--text-size-large);
+    cursor: pointer;
+}
+
+
+/* Active Tab Styling */
+
+.nav-tabs .nav-link.active {
+    background-image: var(--gradient-bg);
+    color: var(--text-color-light);
+}

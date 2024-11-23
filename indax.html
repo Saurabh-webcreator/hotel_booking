@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/fontawsome.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/sweetalert.js"></script>
+    <title>Home Page</title>
+    <!-- js links -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/sweetalert.js"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md bg-light shadow-lg fixed-top navbar-light">
+        <div class="container-fluid">
+            <img src="C:\Users\Victus\OneDrive\Desktop\ss Hotals\logo.jpg" class="rounded-circle" width="60" alt="Logo">
+            <a href="#" class="text-white navbar-brand">HMS</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="myMenu">
+                <ul class="navbar-nav w-100 justify-content-end">
+                    <li class="nav-item fw-bold text-white">HOTAL BOOKING </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br><br>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Tabs -->
+            <div class="col-md-6">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a href="#signup" class="nav-link" data-bs-toggle="tab">Signup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#login" class="nav-link active" data-bs-toggle="tab">Login</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <!-- Signup Tab -->
+                    <div class="tab-pane  container mt-3" id="signup">
+                        <img src="C:\Users\Victus\OneDrive\Desktop\ss Hotals\signup-3.webp.png" class="w-25" alt="Signup Image">
+                        <form>
+                            <input required name="fullname" type="text" placeholder="Full Name" class="mb-3 form-control">
+                            <input required name="hotelname" type="text" placeholder="Hotel Name" class="mb-3 form-control">
+                            <input required name="totalRoom" type="number" placeholder="Number of Hotel Rooms" class="mb-3 form-control">
+                            <input required name="mobile" type="mobile" placeholder="Mobile Number" class="mb-3 form-control">
+                            <input required name="email" type="email" placeholder="Email" class="mb-3 form-control">
+                            <input required name="password" type="password" placeholder="Password" class="mb-3 form-control">
+                            <button type="submit" class="btn btn-primary w-100">Register</button>
+                        </form>
+                    </div>
+                    <!-- Login Tab -->
+                    <div class="tab-pane active container mt-3" id="login">
+                        <form class="login-form">
+                            <input type="email" placeholder="Email" class="mb-3 form-control">
+                            <input type="password" placeholder="Password" class="mb-3 form-control">
+                            <button href="dashboard.html" class="btn btn-primary w-100">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Section -->
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <img class="img-fluid" src="C:\Users\Victus\OneDrive\Desktop\ss Hotals\ROOM.webp" alt="Signup Illustration" style="width: 600px; height: 400px;">
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Links -->
+
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>
